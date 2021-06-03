@@ -1,8 +1,8 @@
 {
+  "homepage": "http://sashankteja32.github.io/assignment1.git",
   "name": "27-interview-questions-app",
   "private": true,
   "version": "1.0.0",
-  "homepage": "http://sashankteja32.github.io/assignment1.git",
   "engines": {
     "node": "^10.13 || 12 || 14 || 15",
     "npm": ">=6"
@@ -34,8 +34,8 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "lint-staged": {
     "*.js": [
